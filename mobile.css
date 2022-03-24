@@ -1,0 +1,132 @@
+html, body {
+    width: 100%
+  }
+  
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+svg {
+    max-width: 100%!important;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
+.state {
+    fill:#b3b3b3;
+}
+
+.borders {
+    stroke:#FFFFFF; 
+    stroke-width:2;
+}
+
+.dccircle {
+    display: yes;
+}
+
+.dropdown {
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding-top: 25px;
+}
+
+#states-dropdown {
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+#ALABAMA, #ALASKA, #ARIZONA, #ARKANSAS, #CALIFORNIA, #COLORADO, #CONNECTICUT, #DELAWARE, #FLORIDA, #GEORGIA, #HAWAII, #IDAHO, 
+#ILLINOIS, #INDIANA, #IOWA, #KANSAS, #KENTUCKY, #LOUISIANA, #MAINE, #MARYLAND, #MASSACHUSETTS, #MICHIGAN, #MINNESOTA, 
+#MISSISSIPPI, #MISSOURI, #MONTANA, #NEBRASKA, #NEVADA, #NEWHAMPSHIRE, #NEWJERSEY, #NEWMEXICO, #NEWYORK, #NORTHCAROLINA,  
+#NORTHDAKOTA, #OHIO, #OKLAHOMA, #OREGON, #PENNSYLVANIA, #RHODEISLAND, #SOUTHCAROLINA, #SOUTHDAKOTA, #TENNESSEE, #TEXAS,  
+#UTAH, #VERMONT, #VIRGINIA, #WASHINGTON, #WESTVIRGINIA, #WISCONSIN, #WYOMING {
+    fill: #b3b3b3;
+  }
+
+#ALABAMA:hover, #ALASKA:hover, #ARIZONA:hover, #ARKANSAS:hover, #CALIFORNIA:hover, #COLORADO:hover, #CONNECTICUT:hover, #DELAWARE:hover, #FLORIDA:hover, #GEORGIA:hover, #HAWAII:hover, #IDAHO:hover, 
+#ILLINOIS:hover, #INDIANA:hover, #IOWA:hover, #KANSAS:hover, #KENTUCKY:hover, #LOUISIANA:hover, #MAINE:hover, #MARYLAND:hover, #MASSACHUSETTS:hover, #MICHIGAN:hover, #MINNESOTA:hover, 
+#MISSISSIPPI:hover, #MISSOURI:hover, #MONTANA:hover, #NEBRASKA:hover, #NEVADA:hover, #NEWHAMPSHIRE:hover, #NEWJERSEY:hover, #NEWMEXICO:hover, #NEWYORK:hover, #NORTHCAROLINA:hover, 
+#NORTHDAKOTA:hover, #OHIO:hover, #OKLAHOMA:hover, #OREGON:hover, #PENNSYLVANIA:hover, #RHODEISLAND:hover, #SOUTHCAROLINA:hover, #SOUTHDAKOTA:hover, #TENNESSEE:hover, #TEXAS:hover, 
+#UTAH:hover, #VERMONT:hover, #VIRGINIA:hover, #WASHINGTON:hover, #WESTVIRGINIA:hover, #WISCONSIN:hover, #WYOMING:hover {
+    fill: #4d79ff;
+}
+
+.mobileHide {
+    display: none;
+}
+
+.description {
+    display: none;
+}
+
+.mobileContainer {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    background-color: #d24940;
+    margin: 15px 15px;
+    padding: 20px;
+    flex-direction: column;
+    border: 10px solid #8f140b;
+}
+
+.mobile-heading-1 {
+    font-size: 8vw;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.mobile-heading-2 {
+    font-size: 6vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.mobile-body-2 {
+    font-size: 6vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mobile-heading-3 {
+    font-size: 6vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.mobile-body-3 {
+    font-size: 6vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr.solid {
+    height: 3px;
+    width: 65%;
+    background-color: white;
+    margin-top: 2px;
+    margin-bottom: 1vh;
+}
+
+.spacer {
+    margin-top: 12px;
+}
+
+svg {
+    max-width: 100%;
+}
+
+.right {
+    width: 100%;
+}
